@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <link rel="canonical" href="https://testuje-sobie.github.io" />
+</head>
+<body>
+  <h1>Content</h1>
+  <script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('./sw.js')
+  }
+  </script>
+</body>
+</html>
